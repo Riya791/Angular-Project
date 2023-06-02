@@ -1,0 +1,23 @@
+.header{
+display: flex; 
+flex-direction: column;
+background-color: rgb(53, 37, 56);
+} 
+
+.sheet-tabs {
+    display: flex;
+    margin-bottom: 10px;
+
+  }
+  
+  .sheet-tab {
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #0b0606;
+    cursor: pointer;
+  }
+  
+  .sheet-tab.active {
+    background-color: #ddd;
+    font-weight: bold;
+  }
